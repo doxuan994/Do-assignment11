@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');
+body {
+    font-family: 'Gentium Book Basic', serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+
+/* -----------------------------------------------------------------------------
+Styling for DIVS
+----------------------------------------------------------------------------- */
+/* Top contents */
+.introduction {
+    background-color: rgba(240, 117, 23, 0.9);
+}
+#product-desc {
+    padding: 0;
+}
+.unit-wrapper {
+    margin: 3em 3em 0 3em;
+    padding: 2em;
+    background-color: rgba(31, 31, 31, .85);
+}
+.headline {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.subhead {
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+@media only screen and (max-width: 1201px) {
+    .unit-wrapper {
+        margin-top: 0px;
+    }
+}
+
+
+#media {
+    background-color: white;
+}
+
+/* -----------------------------------------------------------------------------
+Styling for COMPONENTS
+----------------------------------------------------------------------------- */
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.26%;
+}
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+label {
+    margin-top: 1em;
+    display: inline-block;
+}
+input:not([type=checkbox]):not([type=submit]):not([type=reset]) {
+    width: 100%;
+}
+input:focus, textarea:focus  {
+    outline: 3px solid #36b8ee;
+}
+textarea {
+    width: 100%;
+    height: 50%;
+}
+
+/*------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------*/
+/* Right-Left Footer layout */
+.footer-wrapper {
+    padding: 16px;
+    background-color: dodgerblue;
+}
+.footer-wrapper a {
+    color: white;
+    font-weight: bold;
+}
+.footer-wrapper span {
+    color: white;
+    float: right;
+}
